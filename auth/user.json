@@ -1,0 +1,15 @@
+{
+  "cookies": [
+    {
+      "name": "PrestaShop-52e38b0784c36ac60587b9f1a229b065",
+      "value": "f2f161c0c39e374c5b6c7dd900f8d83b2f18527c9caa4d1404fa426b80b2982a%3A7PNW8KZ2QW8mPSc46z5AjwngY%2BJANMJOgDjVl4ZxZ%2BNxXGDm%2BqH0aOlz1YrM0mo%2B0Lt6mB7%2Bf5s%2Byo4hpI5Sm3sFqTycPK9M%2FVwTyYoOGJ3DKbV9CC944yzj3DfbmgWL%2BiCkq4MLwQYdarnE6I0oFVCy32JRDksQIGm0GTjf1Cb6KR4o0E1KdMhj5jrCpiZp97gfKAfTT3DuxLQ5oVZwDcH%2FzmEEN6Q8kUSaEkpnRaKTF%2BJ14r5dbWx4PXUwqSLMrgS43C9ObOOtB%2FbBGNZAzp9xOPdEhjNnE%2Fu2A3arRniLiJuLA9ccARn6DhIMrBzQ8MQMe6KcbtLwDc0BlmNOLE4y5nyDPl6KKOIbCwXObeLSb1oG7w9Z%2F3Ujj4xLl09GCAaMlkYCn9YJIfIz2AHvNg%3D%3D",
+      "domain": ".automationpractice.techwithjatin.com",
+      "path": "/",
+      "expires": 1790256586.078252,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": []
+}
