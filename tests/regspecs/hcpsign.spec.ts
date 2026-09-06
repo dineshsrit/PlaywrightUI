@@ -26,7 +26,7 @@ test("HCP sign up", async({page})=>
     await hp.declarationcheck()
     await hp.submitApplication()
 
-
-    await page.pause()
+    console.log('the test execution is completed')
+    //await page.pause()
    
 })
