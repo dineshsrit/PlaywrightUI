@@ -1,28 +1,162 @@
-import { HIBData, information } from '../testinterface/informationInterface';
-export const TEST_DATA:HIBData=
-{
-    HIB:
-    {
-        information:
-        {
-            "licenseno":"674648",
-        "Crno":"674648",
-        "nameen":"TestHIB",
-        "namear":"TestHIB",
-        "ownername":"testing",
-        "licensestartDate":"06/09/2026",
-        "licenseendDate":"25/10/2026",
-        "entitymobile":"74837389",
-        "entityemail":"test004@yopmail.com",
-        "Licenseauthorith":"QCB",
-        "headoffice":"testing office"
-        }
-    }
+import {
+  HIBData,
+  information,
+  address,
+  Data,
+} from "../testinterface/informationInterface";
+export const TEST_DATA: HIBData = {
+  HIB: {
+    information: {
+      licenseno: "674650",
+      Crno: "674650",
+      nameen: "TestTPA",
+      namear: "TestTPA",
+      ownername: "testing",
+      licensestartDate: "06/09/2026",
+      licenseendDate: "25/10/2026",
+      entitymobile: "74837389",
+      entityemail: "test005@yopmail.com",
+      Licenseauthorith: "QCB",
+      headoffice: "testing office",
+    },
+    address: {
+      unitno: "78",
+      buildingno: "56",
+      street: "78",
+      zone: "76",
+      municipality: "test",
+      pobox: "738",
+      website: "www.test.com",
+    },
+    focaldata: {
+      fqid: "99999999999",
+      femail: "test0001@yopmail.com",
+      fdesignation: "testing",
+      fmobile: "65789878",
+    },
+  },
+  TPA: {
+    information: {
+      licenseno: "674650",
+      Crno: "674650",
+      nameen: "TestTPA",
+      namear: "TestTPA",
+      ownername: "testing",
+      licensestartDate: "06/09/2026",
+      licenseendDate: "25/10/2026",
+      entitymobile: "74837389",
+      entityemail: "test005@yopmail.com",
+      Licenseauthorith: "QCB",
+      headoffice: "testing office",
+    },
+    address: {
+      unitno: "78",
+      buildingno: "56",
+      street: "78",
+      zone: "76",
+      municipality: "test",
+      pobox: "738",
+      website: "www.test.com",
+    },
+    focaldata: {
+      fqid: "99999999999",
+      femail: "test0001@yopmail.com",
+      fdesignation: "testing",
+      fmobile: "65789878",
+    },
+  },
+};
 
-}
+export const HIB_TEST_DATA: Data = {
+  information: {
+    licenseno: "674650",
+    Crno: "674650",
+    nameen: "TestTPA",
+    namear: "TestTPA",
+    ownername: "testing",
+    licensestartDate: "06/09/2026",
+    licenseendDate: "25/10/2026",
+    entitymobile: "74837389",
+    entityemail: "test005@yopmail.com",
+    Licenseauthorith: "QCB",
+    headoffice: "testing office",
+  },
+  address: {
+    unitno: "78",
+    buildingno: "56",
+    street: "78",
+    zone: "76",
+    municipality: "test",
+    pobox: "738",
+    website: "www.test.com",
+  },
+  focaldata: {
+    fqid: "99999999999",
+    femail: "test0001@yopmail.com",
+    fdesignation: "testing",
+    fmobile: "65789878",
+  },
+};
 
 
+export const TPA_TEST_DATA: Data = {
+  information: {
+    licenseno: "674650",
+    Crno: "674650",
+    nameen: "TestTPA",
+    namear: "TestTPA",
+    ownername: "testing",
+    licensestartDate: "06/09/2026",
+    licenseendDate: "25/10/2026",
+    entitymobile: "74837389",
+    entityemail: "test005@yopmail.com",
+    Licenseauthorith: "QCB",
+    headoffice: "testing office",
+  },
+  address: {
+    unitno: "78",
+    buildingno: "56",
+    street: "78",
+    zone: "76",
+    municipality: "test",
+    pobox: "738",
+    website: "www.test.com",
+  },
+  focaldata: {
+    fqid: "99999999999",
+    femail: "test0001@yopmail.com",
+    fdesignation: "testing",
+    fmobile: "65789878",
+  },
+};
 
-
-
-
+export const IC_TEST_DATA: Data = {
+  information: {
+    licenseno: "674653",
+    Crno: "674653",
+    nameen: "TestIC",
+    namear: "TestIC",
+    ownername: "testing",
+    licensestartDate: "06/09/2026",
+    licenseendDate: "25/10/2026",
+    entitymobile: "74837389",
+    entityemail: "test005@yopmail.com",
+    Licenseauthorith: "QCB",
+    headoffice: "testing office",
+  },
+  address: {
+    unitno: "78",
+    buildingno: "56",
+    street: "78",
+    zone: "76",
+    municipality: "test",
+    pobox: "738",
+    website: "www.test.com",
+  },
+  focaldata: {
+    fqid: "99999999999",
+    femail: "test0003@yopmail.com",
+    fdesignation: "testing",
+    fmobile: "65789878",
+  },
+};

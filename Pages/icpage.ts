@@ -8,7 +8,7 @@ import { FileUploadUtil } from "../tests/utilils/FileUtilits";
 
 
 
- export class hibPage{
+ export class icPage{
 
 
     page:Page
@@ -110,8 +110,8 @@ import { FileUploadUtil } from "../tests/utilils/FileUtilits";
 
     async fillInformation(data:information)
     {
-        await this.page.goto('payer/#/hib/his')
-        console.log('received data', data)
+        await this.page.goto('payer/#/ic/his')
+        //console.log('received data', data)
         await this.licenseNo.fill(data.licenseno)
         await this.selectcrestNo.click()
         await this.crestNoclk.click()
@@ -129,7 +129,10 @@ import { FileUploadUtil } from "../tests/utilils/FileUtilits";
         
         await cal.selectDate(this.licenseEndDate, data.licenseendDate)
         await this.entityMobileNo.fill(data.entitymobile)
+
+        await this.entityEmail.waitFor({state:'visible'})
         await this.entityEmail.fill(data.entityemail)
+    
         await this.licenseAuthClk.click()
         let newauthority= this.licenseAuth.replace('$$',data.Licenseauthorith)
        await this.page.locator(newauthority).click()

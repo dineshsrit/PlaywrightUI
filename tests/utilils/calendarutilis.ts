@@ -16,6 +16,8 @@ export class CalendarUtil {
         const nextButton = this.page.locator("button[aria-label='Next month']");
         const previousButton = this.page.locator("button[aria-label='Previous month']");
 
+        console.log('the target data', targetDate)
+
         const [, targetMonth, targetYear] = targetDate.split("/");
 
         while (true) {
