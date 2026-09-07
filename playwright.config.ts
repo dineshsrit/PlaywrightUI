@@ -60,7 +60,7 @@ export default defineConfig({
     
     {
       name: 'chromium',
-      use: { ...devices['Desktop Chrome'], channel:"chrome", headless:false
+      use: { ...devices['Desktop Chrome'], channel:"chrome", headless:true
         , storageState: path.resolve('auth/user.json'), baseURL:'https://qhisportalppr.moph.gov.qa'
        }
       
